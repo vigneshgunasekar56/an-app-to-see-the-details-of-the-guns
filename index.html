@@ -1,13 +1,30 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gun Details Viewer</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <h1>My app</h1>
-  <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gun Details Viewer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Gun Details Viewer</h1>
+    </header>
+    <main class="layout">
+      <section class="panel list-panel">
+        <ul id="gun-list">
+            <li><span class="gun-name">Glock 17</span><span class="gun-type">(Pistol)</span></li>
+            <li><span class="gun-name">Beretta 92FS</span><span class="gun-type">(Pistol)</span></li>
+            <li><span class="gun-name">Smith &amp; Wesson Model 10</span><span class="gun-type">(Revolver)</span></li>
+            <li><span class="gun-name">Remington 870</span><span class="gun-type">(Shotgun)</span></li>
+            <li><span class="gun-name">Ruger 10/22</span><span class="gun-type">(Rifle)</span></li>
+            <li><span class="gun-name">Winchester Model 70</span><span class="gun-type">(Rifle)</span></li>
+        </ul>
+      </section>
+      <section class="panel details-panel" id="details">
+          
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
 </html>

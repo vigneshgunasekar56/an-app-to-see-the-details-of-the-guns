@@ -1,0 +1,1 @@
+This first version displays a list of six guns, showing each gun's name and type.
